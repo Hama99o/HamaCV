@@ -6,7 +6,7 @@ body{
     font-size: 13px;
 }
 h1{
-    
+
     font-size: 40px;
     font-weight: normal;
     text-align:center;
@@ -15,7 +15,7 @@ h1{
 header{
     height:130px;
     padding-top:20px;
-    
+
 }
 footer{
     height: 70px;
@@ -28,12 +28,12 @@ footer{
 a img{
     width: 200px;
     height:auto;
-    
+
 }
 .left img{
     width: 200px;
     height:auto;
-    
+
 }
 nav{
     width:100%;
@@ -41,7 +41,7 @@ nav{
     background-color: #424558;
     position: fixed;
     top:0px;
-    
+
 
 }
 nav ul{
@@ -57,25 +57,25 @@ nav ul li{
     padding:0px;
     vertical-align: top;
     position: relative;
-    
-    
-     
+
+
+
 }
 nav ul li ul li{
      display:none;
-     
+
  }
  nav ul li ul li a:hover{
     background-color: rgba(64, 200, 130, 0.15);
     border-top:2px solid rgb(46, 153, 100);
     text-shadow: 9ps 9ps 10px black;
     border-top:2px solid rgb(46, 153, 100);
-    
-    
+
+
 }
  nav ul li:hover ul li{
      display:block;
-     background-color: #424558; 
+     background-color: #424558;
  }
 
 nav a{
@@ -92,8 +92,8 @@ nav a{
 .table{
     display: table;
     margin:0 auto;
-    
-  
+
+
 }
 
 .menu-ind:hover, .presentation {
@@ -109,7 +109,7 @@ nav a{
      border-top:2px solid#0070BB;
      background-color: rgba(00,112, 192, 0.15);
  }
- 
+
  .menu-con:hover, .recommandation{
      border-top: 2px solid #FF8C;
      background-color: rgba(64, 200, 130, 0.15);
@@ -172,10 +172,7 @@ nav a{
 .leftexp img{
     width:100%;
     max-width:400px;
-
-
 }
-
 
 .vert{
     border-top: 5px solid #e44d26;
@@ -203,35 +200,35 @@ nav a{
 }
 
  @media screen and (max-width:780px){
-    header{ height:50px;
- }
- h1{
-     font-size:28px;
-     margin:20px 0px 0px 0px;
- }
- nav li a{
-     font-size:7px;
-     padding:10px;
- }
- nav li:hover a{
-     padding:5px 10px 10px 10px;
-    }
+  header{
+    height:50px;
+  }
 
-.left img{
-padding-top:250px;
-padding-left:100px;
- }
+  h1{
+    font-size:28px;
+    margin:20px 0px 0px 0px;
+  }
+
+  nav li a{
+    font-size:7px;
+    padding:10px;
+  }
+  nav li:hover a{
+    padding:5px 10px 10px 10px;
+  }
+
+  .left img{
+    padding-top:250px;
+    padding-left:100px;
+  }
 
 
-nav ul li{
-    width:auto;  
-}
-header{
+  nav ul li{
+    width:auto;
+  }
+  header{
     height:90px;
     padding-top:20px;
-    
+
+  }
 }
-
-
- }
- 
